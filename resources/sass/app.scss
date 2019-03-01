@@ -1,0 +1,45 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#message {
+  font-size: 18px;
+  position: fixed;
+  top: 100px;
+  left: -300px;
+  width: 300px;
+  color: white;
+  padding: 10px;
+}
+#message.success {
+  background-color: $green;
+}
+#message.error {
+  background-color: $red;
+}
+
+.failed {
+  border: 2px solid $red;
+}
+.failed:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid $red;
+}
+
+.error {
+  font-size: 14px;
+  color: $red;
+  margin-top: 3px;
+}
